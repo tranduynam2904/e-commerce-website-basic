@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.handle_card {
+    width: calc(100%/5);
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+.handle_card .card{
+    margin: 0px 10px;
+    box-shadow: 2px 2px 2px 0px;
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+}
+.handle_card .card:hover{
+    transform: translateY(-10px);
+}
+.handle_card .card:hover img{
+    transform: scale(1.05);
+}
+.handle_card img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.handle_card .handle_img {
+    display: flex;
+    justify-content: center;
+}
+.handle_info{
+    margin: 10px 0px;
+    font-size: 0.8rem;
+}
+.handle_buynow{
+    padding: 10px 30px;
+    background: #E06469;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.handle_buynow:hover{
+    background: #fff;
+    color: black;
+    border: #000 solid 1px;
+}
